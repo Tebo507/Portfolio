@@ -9,6 +9,8 @@
         * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
         body { font-family: 'Poppins', sans-serif; background: #f4f6f9; color: #333; line-height: 1.6; transition: 0.3s ease; }
         body.dark { background: #0d1b2a; color: #f1f1f1; }
+         nav { text-align:center; padding:20px; background:#0d1b2a; }
+    nav a { color:white; margin:0 15px; text-decoration:none; }
         header { background: #0d1b2a; color: white; padding: 80px 20px; text-align: center; position: relative; }
         body.dark header { background: #000814; }
         header img.profile { width: 150px; height: 150px; border-radius: 50%; margin-top: 20px; border: 4px solid white; object-fit: cover; }
@@ -33,7 +35,14 @@
     </style>
 </head>
 <body>
-
+             <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 <header>
     <div class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</div>
     <h1>Teboho Mtsetfwa</h1>
@@ -66,7 +75,7 @@
             <p>Cisco Packet Tracer, LAN Configuration, IP Addressing, Troubleshooting</p>
         </div>
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1581090700227-4c4f50f3e5f1" alt="IT Support">
+            <img src="it-support.jpg" alt="IT Support">
             <h3>IT Support</h3>
             <p>Printer Setup, System Maintenance, Windows Troubleshooting, User Support</p>
         </div>
